@@ -105,15 +105,30 @@ const Home: React.FC = () => {
                     </div>
 
                     <div className="flex items-center space-x-8">
-                        <a href="#" className="flex items-center hover:text-white transition-colors">
+                        <a
+                            href="https://github.com/phaneendra-simhadri/project-apeiron"
+                            target="_blank"
+                            rel="noreferrer"
+                            className="flex items-center hover:text-white transition-colors"
+                        >
                             <Github className="w-4 h-4 mr-2" />
                             <span>Source</span>
                         </a>
-                        <a href="#" className="flex items-center hover:text-white transition-colors">
+                        <a
+                            href="https://www.linkedin.com/in/phaneendra-simhadri"
+                            target="_blank"
+                            rel="noreferrer"
+                            className="flex items-center hover:text-white transition-colors"
+                        >
                             <Linkedin className="w-4 h-4 mr-2" />
                             <span>Connect</span>
                         </a>
-                        <a href="#" className="flex items-center hover:text-accent transition-colors">
+                        <a
+                            href="https://phaneendra-simhadri.vercel.app"
+                            target="_blank"
+                            rel="noreferrer"
+                            className="flex items-center hover:text-accent transition-colors"
+                        >
                             <span>Portfolio</span>
                             <ExternalLink className="w-3 h-3 ml-1" />
                         </a>
